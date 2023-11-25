@@ -1,5 +1,5 @@
 <?php
-namespace teofan\testecho;
+namespace Yeofan\Test;
 
 class EchoText
 {
