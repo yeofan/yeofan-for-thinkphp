@@ -5,6 +5,6 @@ class EchoText
 {
     public static function echoText($text)
     {
-        echo $text;
+        return $text;
     }
 }
