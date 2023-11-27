@@ -10,8 +10,8 @@
     },
     "authors": [
         {
-            "name": "yeofan",
-            "email": "yeofan@163.com"
+            "name": "didiren",
+            "email": "736368471@qq.com.com"
         }
     ],
     "require": {
@@ -23,5 +23,6 @@
         "allow-plugins": {
             "topthink/think-installer": true
         }
-    }
+    },
+    "version": "1.0.0"
 }
