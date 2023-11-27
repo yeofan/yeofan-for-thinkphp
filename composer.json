@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Yeofan\\Test\\": "src"
+            "Yeofan\\": "src"
         }
     },
     "authors": [
@@ -14,5 +14,14 @@
             "email": "yeofan@163.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.2.0",
+        "topthink/framework": "dev-master",
+        "topthink/think-queue": "1.1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "topthink/think-installer": true
+        }
+    }
 }
