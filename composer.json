@@ -16,8 +16,8 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "topthink/framework": "dev-master",
-        "topthink/think-queue": "1.1.6"
+        "topthink/framework": "^6.0.0",
+        "topthink/think-queue": "*"
     },
     "config": {
         "allow-plugins": {
