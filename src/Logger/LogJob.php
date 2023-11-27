@@ -19,4 +19,10 @@ class LogJob
         Log::record($data['msg'],$data['level']);
         $job->delete();
     }
+
+    public function failed($data)
+    {
+        // ...任务达到最大重试次数后，失败了
+        Log::error('任务达到最大重试次数后，失败了');
+    }
 }
