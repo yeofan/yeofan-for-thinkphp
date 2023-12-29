@@ -10,7 +10,7 @@ class Logger
     public static function add($msg,$level='info',$async=true){
         $logId = SegregatedStorage::get('logId');
 
-        $msg = '[' . ($logId ? $logId : '') . ']【'.date('Y-m-d H:i:s').'】'.$msg;
+        $msg = '[' . ($logId ? $logId : '') . ']【'.date('Y-m-d H:i:s').'】'.$msg." \n";
 
         if($async){
             $res['msg'] = $msg;
